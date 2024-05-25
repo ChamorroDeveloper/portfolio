@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximunm-scale=1">
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!--Script JS-->    
+    <script src="assets/js/menu.js" defer></script>
+    
+    <title>Portafolio - Lorena Chamorro</title>
+</head>
+<body>
+
+    <!--Layout Principal-->
+    <div class="layout">
+        <!--Barra Lateral-->
+        <aside class="layout__aside">
+            
+            <section class="aside__user-info">
+
+                <!--Informacion general-->
+
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/default-user.jpg" class="user-info__image" alt="foto de perfil del usuario" />
+                    </div>
+
+                    <h2 class="user-info__name">Lorena Chamorro</h2>
+                    <h4 class="user-info__job">Junior Frontend Developer</h4>
+                </div>
+
+                <!--Menú de navegación-->
+
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="projects.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Proyectos</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <!--Links a redes sociales-->
+
+                <div class="user-info__links">
+                    
+                    <ul class="links__social">
+
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/chamorrodesigner/" target="_blank" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://github.com/ChamorroDeveloper" target="_blank" class="social__link">
+                                <i class="social__icon fa-brands fa-github-alt"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://dribbble.com/LorenaCH" target="_blank" class="social__link">
+                                <i class="social__icon fa-brands fa-dribbble"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!--Botón de curriculum-->
+
+                <div class="user_info__buttons">
+                    <a href="https://drive.google.com/file/d/1OvQEfMK12iaP0SsXsR143z4NHrJC-_wC/view?usp=sharing" target="_blank" class="user-info__btn">Descargar CV</a>
+
+                </div>
+
+                <!--Pie de página-->
+
+                <footer class="user-info__footer">
+                    &copy; 2023 Lorena Chamorro Alameda
+                </footer>
+
+            </section>
+        </aside>
+
+        <!--Menu responsive-->
+        <div class="layout__menu-toggle">
+            <i class="menu-togle__icon fa-solid fa-bars"></i>
+            <i class="menu-togle__icon fa-solid fa-xmark"></i>
+        </div>
+        
+        <!--Contenido principal-->
+        <main class="layout__content">
+
+            <section class="content__page content__projects">
+
+                <header class="projects__header">
+                    <h1 class="projects__title">Proyectos</h1>
+                </header>
+
+                <nav class="projects__navbar">
+                    <ul class="projects__menu">
+
+                        <li class="projects__option projects__option--active">
+                            <a href="#" class="projects__link">Todo</a>
+                        </li>
+
+                        <li class="projects__option">
+                            <a href="#" class="projects__link">HTML y CSS</a>
+                        </li>
+
+                        <li class="projects__option">
+                            <a href="#" class="projects__link">React</a>
+                        </li>
+
+                        <li class="projects__option">
+                            <a href="#" class="projects__link">Wordpress</a>
+                        </li>
+
+                        <li class="projects__option">
+                            <a href="#" class="projects__link">Webflow</a>
+                        </li>
+
+                        <li class="projects__option">
+                            <a href="#" class="projects__link">Figma</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <section class="projects__gallery">
+                    <figure class="gallery__item">
+
+                        <div class="gallery__container-image">
+                            <a href="https://drive.google.com/file/d/14yLocMPnHkVI73e1A9EoZmKceKWxL9YX/view?usp=sharing" target="_blank" class="gallery__link">
+                                <img src="assets/img/Oye Cocina.jpg" class="gallery__image" alt="">
+                            </a>
+                        </div>
+
+                        <figcaption class="gallery__title">Oye Cocina</figcaption>
+                        <span class="gallery__category">Figma</span>
+                    </figure>
+
+                    <figure class="gallery__item">
+
+                        <div class="gallery__container-image">
+                            <a href="https://drive.google.com/file/d/1A33LDBhnKM6qPIMP-eaObIQaHF4CaUgH/view?usp=sharing" target="_blank" class="gallery__link">
+                                <img src="assets/img//Edelweiss (2).jpg" class="gallery__image" alt="">
+                            </a>
+                        </div>
+
+                        <figcaption class="gallery__title">Mercería Edelweiss</figcaption>
+                        <span class="gallery__category">Figma</span>
+                    </figure>
+                    
+                    <figure class="gallery__item">
+
+                        <div class="gallery__container-image">
+                            <a href="https://lorenas-portfolio-841b5d.webflow.io/" class="gallery__link">
+                                <img src="assets/img/Webflow Portfolio.jpg" class="gallery__image" alt="">
+                            </a>
+                        </div>
+
+                        <figcaption class="gallery__title">Portfolio Design</figcaption>
+                        <span class="gallery__category">Webflow</span>
+                    </figure>
+                    
+                    <figure class="gallery__item">
+
+                        <div class="gallery__container-image">
+                            <a href="https://github.com/ChamorroDeveloper/Shopping-Cart" class="gallery__link">
+                                <img src="assets/img/galeria-6.jpg" class="gallery__image" alt="">
+                            </a>
+                        </div>
+
+                        <figcaption class="gallery__title">Shopping Cart</figcaption>
+                        <span class="gallery__category">React</span>
+                    </figure>
+
+                    <figure class="gallery__item">
+
+                        <div class="gallery__container-image">
+                            <a href="#" class="gallery__link">
+                                <img src="assets/img/galeria-5.jpg" class="gallery__image" alt="">
+                            </a>
+                        </div>
+
+                        <figcaption class="gallery__title">Zelda Guide</figcaption>
+                        <span class="gallery__category">React</span>
+                    </figure>
+
+                    <figure class="gallery__item">
+
+                        <div class="gallery__container-image">
+                            <a href="#" class="gallery__link">
+                                <img src="assets/img/galeria-4.jpg" class="gallery__image" alt="">
+                            </a>
+                        </div>
+
+                        <figcaption class="gallery__title">Frikisimo Store</figcaption>
+                        <span class="gallery__category">Wordpress</span>
+                    </figure>
+                </section>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
